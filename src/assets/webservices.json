@@ -1,0 +1,42 @@
+{
+    "projets":
+     {
+         "projet": "AI4RIM",
+         "url-preprod": [
+            {
+                "url": "https://preprod.ai4rim.solver.checksem.fr/api/simpleSolve",
+                "description": "solveur de contraintes utbm"
+            },
+            {
+                "url": "https://preprod.ai4rim.solver.checksem.fr/gantt",
+                "description": "diagramme de gantt généré par le solveur"
+            },
+            {
+                "url": "https://preprod.ai4rim.api.constructionsite.checksem.fr/ui",
+                "description": "BD site de contruction d'un chantier ferroviaire"
+            },
+            {
+                "url": "https://preprod.ai4rim.api.rail.infrastructure.checksem.fr/ui",
+                "description": "BD infrastructure d'un chantier ferroviaire"
+            },
+            {
+                "url": "https://preprod.ai4rim.api.resources.checksem.fr/ui",
+                "description": "BD ressources d'un chantier ferroviaire"
+            },
+            {
+                "url": "https://preprod.ai4rim.api.3dmodelprovider.checksem.fr/ui",
+                "description": "BD fournisseur de fichier 3D (gltf)"
+            },
+            {
+                "url": "https://preprod.ihm.ai4rim.checksem.fr",
+                "description": "gui"
+            }
+         ],
+         "url-prod": [
+             
+         ],
+         "remarques": [
+             
+         ]
+     }
+}
