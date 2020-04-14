@@ -5,31 +5,45 @@
             "data": [
                 {
                     "url-preprod": "https://preprod.ai4rim.solver.checksem.fr/api/simpleSolve",
-                    "description": "solveur de contraintes utbm"
+                    "url-prod": "",
+                    "description": "solveur de contraintes utbm",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.ai4rim.solver.checksem.fr/gantt",
-                    "description": "diagramme de gantt généré par le solveur"
+                    "url-prod": "",
+                    "description": "diagramme de gantt généré par le solveur",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.ai4rim.api.constructionsite.checksem.fr/ui",
-                    "description": "BD site de contruction d'un chantier ferroviaire"
+                    "url-prod": "",
+                    "description": "BD site de contruction d'un chantier ferroviaire",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.ai4rim.api.rail.infrastructure.checksem.fr/ui",
-                    "description": "BD infrastructure d'un chantier ferroviaire"
+                    "url-prod": "",
+                    "description": "BD infrastructure d'un chantier ferroviaire",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.ai4rim.api.resources.checksem.fr/ui",
-                    "description": "BD ressources d'un chantier ferroviaire"
+                    "url-prod": "",
+                    "description": "BD ressources d'un chantier ferroviaire",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.ai4rim.api.3dmodelprovider.checksem.fr/ui",
-                    "description": "BD fournisseur de fichier 3D (gltf)"
+                    "url-prod": "",
+                    "description": "BD fournisseur de fichier 3D (gltf)",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.ihm.ai4rim.checksem.fr",
-                    "description": "gui"
+                    "url-prod": "",
+                    "description": "gui",
+                    "remark": ""
                 }
             ]
         },
@@ -37,64 +51,88 @@
             "projet": "web services",
             "data": [
                 {
+                    "url-preprod": "",
                     "url-prod": "https://caoconverter.checksem.fr/api/ui",
-                    "description": "convertisseur fichiers step --> gltf"
+                    "description": "convertisseur fichiers step --> gltf",
+                    "remark": ""
                 },
                 {
+                    "url-preprod": "",
                     "url-prod": "https://doc.caoconverter.checksem.fr",
-                    "description": "documentation convertisseur fichiers step --> gltf"
+                    "description": "documentation convertisseur fichiers step --> gltf",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.marm.checksem.fr/api/ui",
                     "url-prod": "https://marm.checksem.fr/api/ui",
-                    "description": "calcul de règles d'association multi dimensionnelles (Alexandre Bazin)"
+                    "description": "calcul de règles d'association multi dimensionnelles (Alexandre Bazin)",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.app.marm.checksem.fr",
                     "url-prod": "https://app.marm.checksem.fr",
-                    "description": "illustration marm avec des données de capteurs bâtiment"
+                    "description": "illustration marm avec des données de capteurs bâtiment",
+                    "remark": ""
                 },
                 {
+                    "url-preprod": "",
                     "url-prod": "https://e38.marm.checksem.fr",
-                    "description": "illustration marm avec des données de capteurs bâtiment"
+                    "description": "illustration marm avec des données de capteurs bâtiment",
+                    "remark": ""
                 },
                 {
+                    "url-preprod": "",
                     "url-prod": "https://e38v2.marm.checksem.fr",
-                    "description": "illustration marm avec des données de capteurs bâtiment"
+                    "description": "illustration marm avec des données de capteurs bâtiment",
+                    "remark": ""
                 },
                 {
+                    "url-preprod": "",
                     "url-prod": "https://api.ontology.checksem.fr/api/ui",
-                    "description": "manipulation d'ontologie"
+                    "description": "manipulation d'ontologie",
+                    "remark": ""
                 },
                 {
+                    "url-preprod": "",
                     "url-prod": "https://events.ontology.checksem.fr/",
-                    "description": "viewer d'ontologie event"
+                    "description": "viewer d'ontologie event",
+                    "remark": ""
                 },
                 {
+                    "url-preprod": "",
                     "url-prod": "https://ontology.oncom.checksem.fr/",
-                    "description": "ontologie event"
+                    "description": "ontologie event",
+                    "remark": ""
                 },
                 {
+                    "url-preprod": "",
                     "url-prod": "https://rule-builder.ontology.checksem.fr",
-                    "description": "éditeur de règle swrl"
+                    "description": "éditeur de règle swrl",
+                    "remark": ""
                 },
                 {
+                    "url-preprod": "",
                     "url-prod": "https://visual-sparql-builder.checksem.fr",
-                    "description": "éditeur de requêtes sparql"
+                    "description": "éditeur de requêtes sparql",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.osm.checksem.fr/api/ui",
                     "url-prod": "https://osm.checksem.fr/api/ui",
-                    "description": "wrapper api openstreetmap"
+                    "description": "wrapper api openstreetmap",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.pattern-mining.checksem.fr/api/ui",
-                    "description": "quality cover (Amira Mouakher)"
+                    "url-prod": "",
+                    "description": "quality cover (Amira Mouakher)",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.semantic-tools.checksem.fr/api/ui",
                     "url-prod": "https://semantic-tools.checksem.fr/api/ui",
-                    "description": "outils sémantiques (distance)"
+                    "description": "outils sémantiques (distance)",
+                    "remark": ""
                 }
             ]
         },
@@ -103,37 +141,51 @@
             "data": [
                 {
                     "url-preprod": "https://preprod.api.dashboard.checksem.fr/serv/ui",
-                    "description": "dashboard BIM"
+                    "url-prod": "",
+                    "description": "dashboard BIM",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.dashboard.checksem.fr/",
-                    "description": "dashboard BIM"
+                    "url-prod": "",
+                    "description": "dashboard BIM",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.api.graph-query.checksem.fr/api/ui",
                     "url-prod": "https://api.graph-query.checksem.fr/api/ui",
-                    "description": "graph query (catégorisation wikipedia)"
+                    "description": "graph query (catégorisation wikipedia)",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.graph-query.checksem.fr",
                     "url-prod": "https://graph-query.checksem.fr",
-                    "description": "graph query (catégorisation wikipedia)"
+                    "description": "graph query (catégorisation wikipedia)",
+                    "remark": ""
                 },
                 {
+                    "url-preprod": "",
                     "url-prod": "https://api.object-detection.checksem.fr/api/ui",
-                    "description": "detection d'objet dans une image (tensorflow)"
+                    "description": "detection d'objet dans une image (tensorflow)",
+                    "remark": ""
                 },
                 {
+                    "url-preprod": "",
                     "url-prod": "https://object-detection.checksem.fr",
-                    "description": "detection d'objet dans une image (tensorflow)"
+                    "description": "detection d'objet dans une image (tensorflow)",
+                    "remark": ""
                 },
                 {
+                    "url-preprod": "",
                     "url-prod": "https://chatbot.checksem.fr/",
-                    "description": "chatbot"
+                    "description": "chatbot",
+                    "remark": ""
                 },
                 {
+                    "url-preprod": "",
                     "url-prod": "http://illumination.checksem.fr/",
-                    "description": "site web enluminures"
+                    "description": "site web enluminures",
+                    "remark": ""
                 }
             ]
         },
@@ -142,6 +194,7 @@
             "data": [
                 {
                     "url-preprod": "https://genemining.checksem.fr",
+                    "url-prod": "",
                     "description": "genemining",
                     "remark": "VM instance à lancer manuellement"
                 }
@@ -152,11 +205,15 @@
             "data": [
                 {
                     "url-preprod": "https://preprod.dataview.api.checksem.fr/api/ui",
-                    "description": "manipulation et peuplement d'ontologies"
+                    "url-prod": "",
+                    "description": "manipulation et peuplement d'ontologies",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.dataview.checksem.fr",
-                    "description": "viewer données opendata sur cartographie"
+                    "url-prod": "",
+                    "description": "viewer données opendata sur cartographie",
+                    "remark": ""
                 }
             ]
         },
@@ -164,10 +221,16 @@
             "projet": "PSDP",
             "data": [
                 {
-                    "url-prod": "https://psdp.checksem.fr"
+                    "url-preprod": "",
+                    "url-prod": "https://psdp.checksem.fr",
+                    "description": "",
+                    "remark": ""
                 },
                 {
-                    "url-prod": "https://api.psdp.checksem.fr/api/ui"
+                    "url-preprod": "",
+                    "url-prod": "https://api.psdp.checksem.fr/api/ui",
+                    "description": "",
+                    "remark": ""
                 }
             ]
         },
@@ -177,17 +240,20 @@
                 {
                     "url-preprod": "https://preprod.simulator.qape.checksem.fr/api/ui",
                     "url-prod": "https://simulator.qape.checksem.fr/api/ui/",
-                    "description": "simulateur de calcul de reste à charge"
+                    "description": "simulateur de calcul de reste à charge",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.comparator.qape.checksem.fr\t/api/ui",
                     "url-prod": "https://comparator.qape.checksem.fr/api/ui",
-                    "description": "comparateur sémantique avec referentiel de santé"
+                    "description": "comparateur sémantique avec referentiel de santé",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.qape.checksem.fr",
                     "url-prod": "https://qape.checksem.fr",
-                    "description": "affichage de résultats algo qape"
+                    "description": "affichage de résultats algo qape",
+                    "remark": ""
                 }
             ]
         },
@@ -200,17 +266,20 @@
                 {
                     "url-preprod": "https://preprod.api.winecloud.checksem.fr/api/ui",
                     "url-prod": "https://api.winecloud.checksem.fr/api/ui",
-                    "description": "manipulation des ontologies winecloud"
+                    "description": "manipulation des ontologies winecloud",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.winecloud.checksem.fr",
                     "url-prod": "https://winecloud.checksem.fr",
-                    "description": "affichage des résultats winecloud"
+                    "description": "affichage des résultats winecloud",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.ontology.winecloud.checksem.fr",
                     "url-prod": "https://ontology.winecloud.checksem.fr",
-                    "description": "ontologie winecloud"
+                    "description": "ontologie winecloud",
+                    "remark": ""
                 }
             ]
         },
@@ -218,6 +287,7 @@
             "projet": "Qualipac",
             "data": [
                 {
+                    "url-preprod": "",
                     "url-prod": "https://wiki.qualipac.checksem.fr",
                     "description": "espace d'expression des savoirs qualipac",
                     "remark": "VM instance à lancer manuellement"
@@ -228,36 +298,46 @@
             "projet": "wisenet",
             "data": [
                 {
+                    "url-preprod": "",
                     "url-prod": "wisenet-database",
+                    "description": "",
                     "remark": "VM instance à lancer manuellement"
                 },
                 {
                     "url-preprod": "https://preprod.api.wisenet.checksem.fr/docs",
                     "url-prod": "https://api.wisenet.checksem.fr/docs/",
-                    "description": "thèse Roberto Marroquin"
+                    "description": "thèse Roberto Marroquin",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.monitor.wisenet.checksem.fr",
                     "url-prod": "https://monitor.wisenet.checksem.fr",
-                    "description": "thèse Roberto Marroquin"
+                    "description": "thèse Roberto Marroquin",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.wisenet.checksem.fr",
                     "url-prod": "https://wisenet.checksem.fr",
-                    "description": "thèse Roberto Marroquin"
+                    "description": "thèse Roberto Marroquin",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.ontology.wisenet.checksem.fr",
                     "url-prod": "https://ontology.wisenet.checksem.fr",
-                    "description": "thèse Roberto Marroquin"
+                    "description": "thèse Roberto Marroquin",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.backend.wisenet.checksem.fr\t/wisenet/ui",
-                    "description": "backend projet de maturation wisenet"
+                    "url-prod": "",
+                    "description": "backend projet de maturation wisenet",
+                    "remark": ""
                 },
                 {
                     "url-preprod": "https://preprod.frontend.wisenet.checksem.fr",
-                    "description": "frontend projet de maturation wisenet"
+                    "url-prod": "",
+                    "description": "frontend projet de maturation wisenet",
+                    "remark": ""
                 }
             ]
         },

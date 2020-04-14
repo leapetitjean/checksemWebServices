@@ -37,14 +37,29 @@ while (i < temp.Sheet1.length) {
         if (temp.Sheet1[i]['url-preprod'] != undefined) {
             result.projets[p-1].data[d]['url-preprod'] = temp.Sheet1[i]['url-preprod'];
         }
+        else {
+            result.projets[p-1].data[d]['url-preprod'] = "";
+        }
+
         if (temp.Sheet1[i]['url-prod'] != undefined) {
             result.projets[p-1].data[d]['url-prod'] = temp.Sheet1[i]['url-prod'];
         }
+        else {
+            result.projets[p-1].data[d]['url-prod'] = "";
+        }
+
         if (temp.Sheet1[i]['description'] != undefined) {
             result.projets[p-1].data[d]['description'] = temp.Sheet1[i]['description'];
         }
+        else {
+            result.projets[p-1].data[d]['description'] = "";
+        }
+
         if (temp.Sheet1[i]['remark'] != undefined) {
             result.projets[p-1].data[d]['remark'] = temp.Sheet1[i]['remark'];
+        }
+        else {
+            result.projets[p-1].data[d]['remark'] = "";
         }
         d++;
     }
