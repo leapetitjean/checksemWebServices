@@ -1,13 +1,28 @@
-<mat-expansion-panel *ngFor="let p of projets">
+<mat-accordion>
+  <mat-expansion-panel *ngFor="let p of projets">
     <mat-expansion-panel-header>
       <mat-panel-title>
-        {{p.projet}}
+        {{ p.projet }}
       </mat-panel-title>
-      <mat-panel-description>
-        This is a summary of the content
-      </mat-panel-description>
     </mat-expansion-panel-header>
-  
-    <p>This is the primary content of the panel.</p>
-  
+    <div *ngFor="let d of p.data"> 
+      <div *ngIf="d.urlPreProd" class="expansion-content">
+        <h5>url proproduction</h5> 
+        <a href="{{ d.urlPreProd }}">{{ d.urlPreProd }}</a>
+      </div>
+      <div *ngIf="d.urlProd" class="expansion-content">
+        <h5>url production</h5> 
+        <a href="{{ d.urlProd }}">{{ d.urlProd }}</a>
+      </div>
+      <div *ngIf="d.description" class="expansion-content">
+        <h5>descriptif</h5>
+        <p>{{ d.description }}</p>
+      </div>
+      <div *ngIf="d.remark" class="expansion-content">
+        <h5>remarque</h5>
+        <p>{{ d.remark }}</p>
+      </div>
+      <br>
+    </div>
   </mat-expansion-panel>
+</mat-accordion>
