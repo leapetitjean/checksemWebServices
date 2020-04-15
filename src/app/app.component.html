@@ -2,27 +2,30 @@
   <mat-expansion-panel *ngFor="let p of projets">
     <mat-expansion-panel-header>
       <mat-panel-title>
-        {{ p.projet }}
+        <div class="title">
+          {{ p.projet }}
+        </div>
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <div *ngFor="let d of p.data"> 
-      <div *ngIf="d.urlPreProd" class="expansion-content">
-        <h5>url proproduction</h5> 
-        <a href="{{ d.urlPreProd }}">{{ d.urlPreProd }}</a>
+    <div *ngFor="let d of p.data" class="container"
+      fxLayout
+      fxLayout="row"
+      fxLayoutGap="0"> 
+      <div class="item header" fxFlex="20%">
+        <p>url preproduction</p>
+        <p>url production</p>
+        <p>description</p>
+        <p>remarques</p>
       </div>
-      <div *ngIf="d.urlProd" class="expansion-content">
-        <h5>url production</h5> 
-        <a href="{{ d.urlProd }}">{{ d.urlProd }}</a>
-      </div>
-      <div *ngIf="d.description" class="expansion-content">
-        <h5>descriptif</h5>
+      <div class="item content" fxFlex>
+        <p><a href="{{ d.urlPreProd }}">{{ d.urlPreProd }}</a></p>
+        <p [hidden]="d.urlPreProd"><br></p>
+        <p><a href="{{ d.urlProd }}">{{ d.urlProd }}</a></p>
+        <p [hidden]="d.urlProd"><br></p>
         <p>{{ d.description }}</p>
-      </div>
-      <div *ngIf="d.remark" class="expansion-content">
-        <h5>remarque</h5>
+        <p [hidden]="d.description"><br></p>
         <p>{{ d.remark }}</p>
       </div>
-      <br>
     </div>
   </mat-expansion-panel>
 </mat-accordion>
