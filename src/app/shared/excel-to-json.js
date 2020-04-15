@@ -28,6 +28,14 @@ while (i < temp.Sheet1.length) {
         result.projets[p].projet = temp.Sheet1[i].projet;
         d = 0;
         p++;
+        if (i+1 < temp.Sheet1.length && temp.Sheet1[i+1].projet != undefined) {
+            result.projets[p-1].data = [];
+            result.projets[p-1].data[d] = {};
+            result.projets[p-1].data[d].urlPreProd = "";
+            result.projets[p-1].data[d].urlProd = "";
+            result.projets[p-1].data[d]['description'] = "";
+            result.projets[p-1].data[d]['remark'] = "";
+        }
     }
     else {
         if (d == 0) {
@@ -35,17 +43,17 @@ while (i < temp.Sheet1.length) {
         }
         result.projets[p-1].data[d] = {};
         if (temp.Sheet1[i]['url-preprod'] != undefined) {
-            result.projets[p-1].data[d]['url-preprod'] = temp.Sheet1[i]['url-preprod'];
+            result.projets[p-1].data[d].urlPreProd = temp.Sheet1[i]['url-preprod'];
         }
         else {
-            result.projets[p-1].data[d]['url-preprod'] = "";
+            result.projets[p-1].data[d].urlPreProd = "";
         }
 
         if (temp.Sheet1[i]['url-prod'] != undefined) {
-            result.projets[p-1].data[d]['url-prod'] = temp.Sheet1[i]['url-prod'];
+            result.projets[p-1].data[d].urlProd = temp.Sheet1[i]['url-prod'];
         }
         else {
-            result.projets[p-1].data[d]['url-prod'] = "";
+            result.projets[p-1].data[d].urlProd = "";
         }
 
         if (temp.Sheet1[i]['description'] != undefined) {
@@ -68,8 +76,8 @@ while (i < temp.Sheet1.length) {
 if (temp.Sheet1[i-1].projet != undefined) {
     result.projets[p-1].data = [];
     result.projets[p-1].data[d] = {};
-    result.projets[p-1].data[d]['url-preprod'] = "";
-    result.projets[p-1].data[d]['url-prod'] = "";
+    result.projets[p-1].data[d].urlPreProd = "";
+    result.projets[p-1].data[d].urlProd = "";
     result.projets[p-1].data[d]['description'] = "";
     result.projets[p-1].data[d]['remark'] = "";
 }

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ProjetsService } from './services/projets.service';
+import { Projet } from './shared/projet';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'checksemWebServices';
+  projets: Projet[];
+  constructor(private projetsService: ProjetsService) {
+    projetsService.getProjets().subscribe(
+      (projets) => this.projets = projets
+    );
+  }
 }

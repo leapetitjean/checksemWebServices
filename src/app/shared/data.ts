@@ -1,6 +1,6 @@
 export class Data {
-    'url-preprod': string;
-    'url-prod': string;
+    urlPreProd: string;
+    urlProd: string;
     description: string;
     remark: string;
 }

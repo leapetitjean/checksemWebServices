@@ -10,5 +10,13 @@ export class ProjetsService {
 
   constructor() { }
 
+  getProjets(): Observable<Projet[]> {
+    let projets: Projet[] = [];
+    for (let p of webServices.projets) {
+      let projet: Projet = JSON.parse(JSON.stringify(p));
+      projets.push(projet);
+    }
+    return of(projets);
+  }
 
 }
