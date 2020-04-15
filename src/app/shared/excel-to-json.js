@@ -1,5 +1,5 @@
 'use strict';
-const excelToJson = require('../node_modules/convert-excel-to-json');
+const excelToJson = require('convert-excel-to-json');
  
 const temp = excelToJson({
     sourceFile: './src/assets/webservices.xlsx',
@@ -65,7 +65,14 @@ while (i < temp.Sheet1.length) {
     }
     i++;
 }
-
+if (temp.Sheet1[i-1].projet != undefined) {
+    result.projets[p-1].data = [];
+    result.projets[p-1].data[d] = {};
+    result.projets[p-1].data[d]['url-preprod'] = "";
+    result.projets[p-1].data[d]['url-prod'] = "";
+    result.projets[p-1].data[d]['description'] = "";
+    result.projets[p-1].data[d]['remark'] = "";
+}
 let donnees = JSON.stringify(result);
 const fs = require('fs');
 fs.writeFileSync('./src/assets/webservices.json', donnees);
