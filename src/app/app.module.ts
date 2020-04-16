@@ -7,6 +7,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatExpansionModule } from '@angular/material/expansion';
 
+
+import { ProjetsService } from '../app/services/projets.service';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -17,7 +20,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
     FlexLayoutModule,
     MatExpansionModule
   ],
-  providers: [],
+  providers: [ProjetsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
