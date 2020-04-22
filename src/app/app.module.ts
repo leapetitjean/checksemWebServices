@@ -10,14 +10,13 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { ProjetsService } from '../app/services/projets.service';
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
 import { WebservicesComponent } from './webservices/webservices.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
     WebservicesComponent
   ],
   imports: [

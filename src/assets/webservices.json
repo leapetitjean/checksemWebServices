@@ -2,6 +2,7 @@
     "projets": [
         {
             "projet": "AI4RIM",
+            "logo": "",
             "data": [
                 {
                     "urlPreProd": "https://preprod.ai4rim.solver.checksem.fr/api/simpleSolve",
@@ -49,6 +50,7 @@
         },
         {
             "projet": "web services",
+            "logo": "",
             "data": [
                 {
                     "urlPreProd": "",
@@ -138,6 +140,7 @@
         },
         {
             "projet": "demos",
+            "logo": "",
             "data": [
                 {
                     "urlPreProd": "https://preprod.api.dashboard.checksem.fr/serv/ui",
@@ -191,6 +194,7 @@
         },
         {
             "projet": "genemining",
+            "logo": "",
             "data": [
                 {
                     "urlPreProd": "https://genemining.checksem.fr",
@@ -202,6 +206,7 @@
         },
         {
             "projet": "dataview-nobatek",
+            "logo": "/assets/logos/nobatek.png",
             "data": [
                 {
                     "urlPreProd": "https://preprod.dataview.api.checksem.fr/api/ui",
@@ -219,6 +224,7 @@
         },
         {
             "projet": "PSDP",
+            "logo": "",
             "data": [
                 {
                     "urlPreProd": "",
@@ -236,6 +242,7 @@
         },
         {
             "projet": "QAPE",
+            "logo": "/assets/logos/qape.png",
             "data": [
                 {
                     "urlPreProd": "https://preprod.simulator.qape.checksem.fr/api/ui",
@@ -259,6 +266,7 @@
         },
         {
             "projet": "TSO-AMValor",
+            "logo": "/assets/logos/tso.png",
             "data": [
                 {
                     "urlPreProd": "",
@@ -270,6 +278,7 @@
         },
         {
             "projet": "winecloud",
+            "logo": "/assets/logos/winecloud.png",
             "data": [
                 {
                     "urlPreProd": "https://preprod.api.winecloud.checksem.fr/api/ui",
@@ -293,6 +302,7 @@
         },
         {
             "projet": "Qualipac",
+            "logo": "/assets/logos/qualipac.png",
             "data": [
                 {
                     "urlPreProd": "",
@@ -304,6 +314,7 @@
         },
         {
             "projet": "wisenet",
+            "logo": "/assets/logos/wisenet.png",
             "data": [
                 {
                     "urlPreProd": "",
@@ -351,6 +362,7 @@
         },
         {
             "projet": "Mythmaker",
+            "logo": "",
             "data": [
                 {
                     "urlPreProd": "",

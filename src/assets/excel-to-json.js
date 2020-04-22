@@ -11,7 +11,8 @@ const temp = excelToJson({
         C: "url-preprod",
         D: "url-prod",
         E: "description",
-        F: "remark"
+        F: "remark",
+        G: "logo"
     }
 });
 
@@ -26,6 +27,12 @@ while (i < temp.Sheet1.length) {
     if (temp.Sheet1[i].projet != undefined) {
         result.projets[p] = {};
         result.projets[p].projet = temp.Sheet1[i].projet;
+        if(temp.Sheet1[i].logo != undefined) {
+            result.projets[p].logo = temp.Sheet1[i].logo
+        }
+        else {
+            result.projets[p].logo = ""
+        }
         d = 0;
         p++;
         if (i+1 < temp.Sheet1.length && temp.Sheet1[i+1].projet != undefined) {

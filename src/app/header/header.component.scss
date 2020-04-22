@@ -1,7 +1,7 @@
-$background-title: #4472C4;
+$background-toolbar: white;
 
 mat-toolbar {
-    background-color: white;
+    background-color: $background-toolbar;
     height: 140px;
 }
 

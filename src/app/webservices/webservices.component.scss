@@ -29,13 +29,29 @@ $color-dark: white;
 }
 
 .title {
-    width: 20%;
+    width: 30%;
     color: $color;
     background-color: $background-title;
     padding: 0.6em;
     text-align: center;
+    margin: auto;
+    margin-left: 0;
 }
 
 a {
     color: $color-dark;
+}
+
+mat-panel-description {
+    text-align: center;
+    display: block;
+}
+
+img {
+    max-height: 45px;
+    width: auto;
+}
+
+mat-expansion-panel-header {
+    height: 100px;
 }
