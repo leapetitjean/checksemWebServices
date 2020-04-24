@@ -1,20 +1,15 @@
 <mat-accordion>
     <mat-expansion-panel *ngFor="let p of projets">
-      <mat-expansion-panel-header
-        fxLayout="row">
-        <mat-panel-title fxFlex=80%>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
           <div class="title">
             {{ p.projet }}
           </div>
-
-        </mat-panel-title>
-        <span fxFlex class="flex-spacer"></span>
-        <mat-panel-description fxFlex=30%>
           <div class="icon">
             <img *ngIf="p.logo" src="{{ p.logo }}" alt="{{ p.projet }}" >
           </div>
-        </mat-panel-description>
-        
+        </mat-panel-title>
+
       </mat-expansion-panel-header>
       <div *ngFor="let d of p.data" class="container"
         fxLayout

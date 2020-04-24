@@ -35,17 +35,19 @@ $color-dark: white;
     padding: 0.6em;
     text-align: center;
     margin: auto;
+    margin-right: 0;
     margin-left: 0;
+}
+
+.icon {
+    margin-left: 2%;
+    text-align: left;
 }
 
 a {
     color: $color-dark;
 }
 
-mat-panel-description {
-    text-align: left;
-    display: block;
-}
 
 img {
     max-height: 45px;
